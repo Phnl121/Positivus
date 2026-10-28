@@ -82,14 +82,14 @@
 }
 
 .logotypes {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
 }
 
 .logotypes img {
   height: auto;
-  filter: grayscale(100%); /* Pesquei na internet como deixar as imagens com o tom escuro (preto) */ 
+  filter: grayscale(100%); /* Pesquei na internet como deixar as imagens com o tom escuro (preto) */
 }
 
 .megafone {
@@ -101,29 +101,29 @@ figure img {
 }
 
 .services {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
 }
 
 .services h2 {
-    padding: 5px 15px;
-    background-color: #B9FF66;
-    border: solid 1px #B9FF66;
-    border-radius: 10px;
+  padding: 5px 15px;
+  background-color: #b9ff66;
+  border: solid 1px #b9ff66;
+  border-radius: 10px;
 }
 
 .services p {
-    max-width: 580px;
+  max-width: 580px;
 }
 
 .cards-section {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 40px;
-    margin-bottom: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 100px;
 }
 
 .card {
@@ -206,12 +206,12 @@ figure img {
 }
 
 .card-dark .learn-more span {
-  color: #ffffff; 
+  color: #ffffff;
 }
 
 .proposal {
   display: flex;
-  background-color: #F3F3F3;
+  background-color: #f3f3f3;
   justify-content: space-between;
   align-items: center;
   border-radius: 50px;
@@ -242,22 +242,22 @@ figure img {
 }
 
 .case-studies {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 30px;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
 }
 
 .case-studies h2 {
-    padding: 5px 15px;
-    background-color: #B9FF66;
-    border: solid 1px #B9FF66;
-    border-radius: 10px;
+  padding: 5px 15px;
+  background-color: #b9ff66;
+  border: solid 1px #b9ff66;
+  border-radius: 10px;
 }
 
 .case-studies p {
-    max-width: 580px;
+  max-width: 580px;
 }
 
 .card-case-studies {
@@ -270,7 +270,7 @@ figure img {
   margin-bottom: 100px;
 }
 
-.content-case-studies{
+.content-case-studies {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -279,7 +279,8 @@ figure img {
   justify-content: space-between;
 }
 
-.content-case-studies:not(:last-child) { /*Pesqusei na internet como remover a borda da última coluna*/
+.content-case-studies:not(:last-child) {
+  /*Pesqusei na internet como remover a borda da última coluna*/
   border-right: 1px solid white;
 }
 
@@ -290,4 +291,100 @@ figure img {
   color: #b9ff66;
   text-decoration: none;
   font-size: 20px;
+}
+
+.our-working-process {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.our-working-process h2 {
+  padding: 5px 15px;
+  background-color: #b9ff66;
+  border: solid 1px #b9ff66;
+  border-radius: 10px;
+}
+
+.our-working-process p {
+  max-width: 580px;
+}
+
+.process-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.step-card {
+  background-color: #f3f3f3;
+  border: 1px solid #191a23;
+  border-radius: 45px;
+  padding: 40px 50px;
+  box-shadow: 0 5px 0 #191a23;
+}
+
+.step-card.verde {
+  background-color: #b9ff66;
+}
+
+.step-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.step-title {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.step-title h2 {
+  font-size: 60px;
+  font-weight: 500;
+}
+
+.step-title h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.step-icon {
+  width: 58px;
+  height: 58px;
+}
+
+.step-content {
+  border-top: 1px solid #191a23;
+  margin-top: 30px;
+  padding-top: 30px;
+}
+
+.step-content p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.team {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  margin-bottom: 100px;
+}
+
+.team h2 {
+  padding: 5px 15px;
+  background-color: #b9ff66;
+  border: solid 1px #b9ff66;
+  border-radius: 10px;
+  font-size: 30px;
+}
+
+.team p {
+  max-width: 580px;
 }
